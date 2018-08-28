@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="app7.app7" android:installLocation="auto" android:versionCode="2" android:versionName="2.0">
+	<uses-sdk />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.USE_CREDENTIALS" />
+	<uses-feature android:glEsVersion="0x00020000" android:required="true" />
+	<permission android:name="app7.app7.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
+	<uses-permission android:name="app7.app7.permission.MAPS_RECEIVE" />
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+	<application android:label="App7.Droid" android:icon="@drawable/Icon">
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBW2XJTKLmgUCqVJ_1pEV0fMFMJRG8Srek" />
+		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+	</application>
+</manifest>

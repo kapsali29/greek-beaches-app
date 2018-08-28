@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6bd6227d-b280-4832-b7e4-d05ad6bfaf72</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>App7</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\AddressSQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\AlterNamesSQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\beach.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\CommentsSQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\descriptionSQlite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\LatLngSQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\NearSQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\PhotoSqlite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\RegionSQLite.cs" />
+  </ItemGroup>
+</Project>

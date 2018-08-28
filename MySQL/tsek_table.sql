@@ -1,0 +1,3 @@
+CREATE TABLE `tsek` (
+ `pid` text CHARACTERSET utf8 NOTNULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1

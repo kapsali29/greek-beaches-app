@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="googleplayservices-plus" is-shell="true">
+  <name>Google Play Services - Plus</name>
+  <publisher>Xamarin Inc.</publisher>
+  <publisher-url>http://xamarin.com</publisher-url>
+  <version>29.0.0.1</version>
+  <summary>Access public Google+ social graph info, build Hangout apps, and more.</summary>
+  <packages>
+    <package id="Xamarin.GooglePlayServices.Plus" version="29.0.0.1" framework="android" />
+  </packages>
+  <samples>
+    <sample id="PlusSample">
+      <name>Plus Sample</name>
+      <summary>Plus Sample</summary>
+    </sample>
+  </samples>
+</component>
